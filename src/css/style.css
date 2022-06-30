@@ -1,0 +1,8 @@
+.active{
+    background-color: rgb(90, 78, 98);
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+}
