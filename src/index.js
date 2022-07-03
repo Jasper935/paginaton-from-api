@@ -26,7 +26,7 @@ function onClickButton(evt) {
 function pagination(pages) {
 
     let markUp = ''
-    for (i = 1; i <= pages; i++) {
+    for (let i = 1; i <= pages; i++) {
         if (i === 1) {
             markUp += `<button class="for_pagination active">${i}</button>`
         } else {
